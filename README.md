@@ -1,12 +1,12 @@
-# Creative Coding 1 - MART 120
+# Web Server Technologies - MART 460
 
-The web-based version of Creative Coding 1 at the School of Media Arts, University of Montana.
+This is the web-based version of the Web Server Technologies at the School of Media Arts, University of Montana.
 
-This course is designed to teach code so that it can become a tool for art and creativity.
+This course is designed to teach students how to design and develop artistic, game-based and real-world applications on the server side of web development.
 
-Utilizing Code.org, Scratch, App Lab, Alice, HTML, CSS, JavaScript and [p5.js](https://p5js.org), this course teaches concepts from computer science and programming and allows us to apply it to our artistic expressions.
+Utilizing ASP.NET, C#, Visual Studio and SQL Server, this course teaches concepts from computer science and programming and allows us to apply it to our artistic expressions.
 
-- [_Creative Coding 1_ Website](https://montana-media-arts.github.io/creative-coding-1-Fall2019/)
+- [Web Server Technologies Website](https://montana-media-arts.github.io/461_WebServer-Fall2020/)
 
 
 ### Updated by
@@ -19,4 +19,4 @@ Utilizing Code.org, Scratch, App Lab, Alice, HTML, CSS, JavaScript and [p5.js](h
 
 ### Updated
 
-This course was last updated: 2019-5-28
+This course was last updated: 2020-5-13
