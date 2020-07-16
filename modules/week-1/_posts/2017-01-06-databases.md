@@ -1,14 +1,12 @@
 ---
-title: Development Environment
+title: Databases
 module: 1
 ---
 
-# Your Development Environment
+# What are databases
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
-## Visual Studio Community Edition
+## SQL Server
 
-## SQL Server Management Studio
-
-## MySQL Workbench
+## MySQL

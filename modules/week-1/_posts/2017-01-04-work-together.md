@@ -1,14 +1,9 @@
 ---
-title: Development Environment
+title: Client and Server Working Together
 module: 1
 ---
 
-# Your Development Environment
+# How they Work Together
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
-## Visual Studio Community Edition
-
-## SQL Server Management Studio
-
-## MySQL Workbench

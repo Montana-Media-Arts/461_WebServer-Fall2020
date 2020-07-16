@@ -1,14 +1,12 @@
 ---
-title: Development Environment
+title: Web Server Definition
 module: 1
+jotted: false
 ---
 
-# Your Development Environment
+# What is Web Server Programming
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
-## Visual Studio Community Edition
 
-## SQL Server Management Studio
-
-## MySQL Workbench
+## What is client-side programming
