@@ -3,10 +3,17 @@ title: Programming Languages
 module: 1
 ---
 
-# What languages are used?
+# Server-side languages
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'C-sharp')">C#</button>
+  <button class="tablinks" onclick="openTab(event, 'PHP')">PHP</button>
+ </div>
 
-## C#
+<div id="C-sharp" class="tabcontent" style="display:block">
 
-## PHP
+</div>
+
+<div id="PHP" class="tabcontent">
+
+</div>

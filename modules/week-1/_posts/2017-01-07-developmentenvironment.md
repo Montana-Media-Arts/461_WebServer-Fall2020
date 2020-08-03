@@ -3,12 +3,23 @@ title: Development Environment
 module: 1
 ---
 
-# Your Development Environment
+# Development Environment
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'VS')">Visual Studio</button>
+  <button class="tablinks" onclick="openTab(event, 'SSMS')">SQL Server Management Studio</button>
+  <button class="tablinks" onclick="openTab(event, 'Workbench')">MySQL Workbench</button>
+  
+ </div>
 
-## Visual Studio Community Edition
+<div id="VS" class="tabcontent" style="display:block">
 
-## SQL Server Management Studio
+</div>
 
-## MySQL Workbench
+<div id="SSMS" class="tabcontent">
+
+</div>
+
+<div id="Workbench" class="tabcontent">
+
+</div>

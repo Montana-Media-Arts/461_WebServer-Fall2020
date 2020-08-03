@@ -4,9 +4,17 @@ module: 1
 jotted: false
 ---
 
-# What is Web Server Programming
+# What is
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Server')">Server-Side</button>
+  <button class="tablinks" onclick="openTab(event, 'Client')">Client-Side</button>
+ </div>
 
+<div id="Server" class="tabcontent" style="display:block">
 
-## What is client-side programming
+</div>
+
+<div id="Client" class="tabcontent">
+
+</div>

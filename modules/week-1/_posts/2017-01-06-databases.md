@@ -3,10 +3,17 @@ title: Databases
 module: 1
 ---
 
-# What are databases
+# Databases
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'SQLServer')">MS SQL Server</button>
+  <button class="tablinks" onclick="openTab(event, 'MySql')">MySQL</button>
+ </div>
 
-## SQL Server
+<div id="SQLServer" class="tabcontent" style="display:block">
 
-## MySQL
+</div>
+
+<div id="MySql" class="tabcontent">
+
+</div>
