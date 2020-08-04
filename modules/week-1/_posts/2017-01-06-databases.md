@@ -24,7 +24,7 @@ module: 1
 
 <p>Sitting beneath the Database Engine is the SQL Server Operating System, or SQLOS. SQLOS handles lower-level functions, such as memory and I/O management, job scheduling and locking of data to avoid conflicting updates. A network interface layer sits above the Database Engine and uses Microsoft's Tabular Data Stream protocol to facilitate request and response interactions with database servers. And at the user level, SQL Server DBAs and developers write T-SQL statements to build and modify database structures, manipulate data, implement security protections and back up databases, among other tasks.</p>
 
-<p><a href="https://youtu.be/pF8n-8DPvjc" class="lity-youtube"> What is SQL Server Video</a></p>
+<p><a href="https://youtu.be/pF8n-8DPvjc" data-lity> What is SQL Server Video</a></p>
 
 <p>SQL Server services, tools and editions</p>
 
