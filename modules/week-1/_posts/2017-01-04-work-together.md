@@ -42,5 +42,5 @@ The server then acknowledges the request and replies back to the client program.
 * The client again renders it back for the user's view
 * The user gets access to the requested link.
 
-<a href="https://www.c-sharpcorner.com/UploadFile/2072a9/client-side-vs-server-side-programming-languages/" target="_new"><em>Reference</em></a>
+<p><a href="https://www.c-sharpcorner.com/UploadFile/2072a9/client-side-vs-server-side-programming-languages/" target="_new"><em>Reference</em></a></p>
 
