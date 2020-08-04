@@ -36,7 +36,7 @@ module: 1
 <p>You can see a number of tool windows when you will open the Visual Studio and start writing your first program as follows:</p>
 
 <ul>
-<li>Code Editor: Where the user will write code.
+<li>Code Editor: Where the user will write code.</li>
 <li>Output Window: Here the Visual Studio shows the outputs, compiler warnings, error messages and debugging information.</li>
 <li>Solution Explorer: It shows the files on which the user is currently working.
 Properties: It will give additional information and context about the selected parts of the current project.</li>
