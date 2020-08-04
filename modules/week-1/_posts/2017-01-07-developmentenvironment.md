@@ -9,7 +9,7 @@ module: 1
   <button class="tablinks" onclick="openTab(event, 'VS')">Visual Studio</button>
   <button class="tablinks" onclick="openTab(event, 'SSMS')">SQL Server Management Studio</button>
   <button class="tablinks" onclick="openTab(event, 'Workbench')">MySQL Workbench</button>
-  
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
  </div>
 
 <div id="VS" class="tabcontent" style="display:block">
@@ -69,4 +69,13 @@ Properties: It will give additional information and context about the selected p
 <p><a href="https://www.mysql.com/products/workbench/" target="_new"><em>Reference</em></a></p>
 
 
+</div>
+
+<div id="ToDo" class="tabcontent">
+    <p>Install the following</p>
+    <ol>
+        <li>Install <a href="https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16" target="_new">Visual Studio Community Edition</a></li>
+        <li>Install <a href="https://aka.ms/ssmsfullsetup" target="_new">SQL Server Management Studio</a></li>
+        <li>Install <a href="https://dev.mysql.com/downloads/" target="_new">MySQL Workbench</a></li>
+    </ol>
 </div>
