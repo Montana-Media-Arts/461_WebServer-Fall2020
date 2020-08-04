@@ -6,12 +6,29 @@ module: 1
 # Server-side languages
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'C-sharp')">C#</button>
+  <button class="tablinks" onclick="openTab(event, 'C-sharp')">ASP.NET (C#)</button>
   <button class="tablinks" onclick="openTab(event, 'PHP')">PHP</button>
  </div>
 
 <div id="C-sharp" class="tabcontent" style="display:block">
+<p>C# syntax is highly expressive, yet it is also simple and easy to learn. The curly brace syntax of C# will be instantly recognizable to anyone familiar with C, C++, or Java. Developers who know any of these languages are typically able to begin to work productively in C# within a short time. C# syntax simplifies many of the complexities of C++ and provides powerful features such as nullable types, enumerations, delegates, lambda expressions, and direct memory access. C# supports generic methods and types, which provide increased type safety and performance, and iterators, which enable implementers of collection classes to define custom iteration behaviors that are simple to use by client code. Language-Integrated Query (LINQ) expressions make the strongly typed query a first-class language construct.</p>
 
+<p>As an object-oriented language, C# supports the concepts of encapsulation, inheritance, and polymorphism. All variables and methods, including the Main method, the application's entry point, are encapsulated within class definitions. A class may inherit directly from one parent class, but it may implement any number of interfaces. Methods that override virtual methods in a parent class require the override keyword as a way to avoid accidental redefinition. In C#, a struct is like a lightweight class; it is a stack-allocated type that can implement interfaces but does not support inheritance.</p>
+
+<p>In addition to these basic object-oriented principles, C# makes it easy to develop software components through several innovative language constructs, including the following:</p>
+
+<ul>
+<li>Encapsulated method signatures called delegates, which enable type-safe event notifications.</li>
+<li>Properties, which serve as accessors for private member variables.</li>
+<li>Attributes, which provide declarative metadata about types at run time.</li>
+<li>Inline XML documentation comments.</li>
+<li>Language-Integrated Query (LINQ), which provides built-in query capabilities across a variety of data sources.</li>
+<li>If you have to interact with other Windows software such as COM objects or native Win32 DLLs, you can do this in C# through a process called "Interop". Interop enables C# programs to do almost anything that a native C++ application can do. C# even supports pointers and the concept of "unsafe" code for those cases in which direct memory access is critical.</li>
+</ul>
+<p>The C# build process is simple compared to C and C++ and more flexible than in Java. There are no separate header files, and no requirement that methods and types be declared in a particular order. A C# source file may define any number of classes, structs, interfaces, and events.</p>
+
+<p>Architecture diagram</p>
+<img src="../imgs/net-architecture-relationships.png" alt="Architecture diagram" />
 </div>
 
 <div id="PHP" class="tabcontent">
