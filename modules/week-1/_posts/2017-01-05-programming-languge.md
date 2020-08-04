@@ -38,7 +38,7 @@ module: 1
 <li>Editor extensions to provide syntax highlighting, code completion, and other functionality specifically for developing web pages</li>
 </ul>
 
-<p><a href="https://youtu.be/lE8NdaX97m0?list=PLdo4fOcmZ0oW8nviYduHq7bmKode-p8Wy" class="lity-youtube">ASP.NET Video</a></p>
+<p><a href="https://youtu.be/lE8NdaX97m0?list=PLdo4fOcmZ0oW8nviYduHq7bmKode-p8Wy" data-lity>ASP.NET Video</a></p>
 
 <p><b>Back-end code</b></p>
 
