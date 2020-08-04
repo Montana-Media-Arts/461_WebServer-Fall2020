@@ -32,6 +32,7 @@ jotted: false
 <li>Python</li>
 <li>Ruby on Rails</li>
 <li>and others</li>
+</ol>
 </div>
 
 <div id="Client" class="tabcontent">
