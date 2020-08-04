@@ -22,7 +22,7 @@ jotted: false
 <li>Process user input. For example if user input is a text in search box, run a search algorithm on data stored on server and send the results.</li>
 </ol>
 
-<p>Examples :<p>
+<p>Examples :</p>
 <p>The Programming languages for server-side programming are :</p>
 <ol>
 <li>ASP.NET (C#, VB.NET)</li>
