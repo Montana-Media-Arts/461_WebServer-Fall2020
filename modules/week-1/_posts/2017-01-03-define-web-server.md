@@ -51,6 +51,7 @@ jotted: false
 <li>HTML</li>
 <li>CSS</li>
 <li>AJAX</li>
+<li>jQuery</li>
 </ol>
 </div>
 
