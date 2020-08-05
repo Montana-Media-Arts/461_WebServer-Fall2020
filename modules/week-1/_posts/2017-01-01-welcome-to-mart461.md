@@ -8,6 +8,7 @@ module: 1
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'Goals')">Goals</button>
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
  
 </div>
 
@@ -30,4 +31,8 @@ module: 1
 <li>Generate and apply test plans for web server applications</li>
 <li>Deploy a web application to a server</li>
 </ul>
+</div>
+<div id="ToDo" class="tabcontent">
+  <p>Please take the syllabus quiz below.  It might take a few seconds to load...</p>
+<p><iframe src="https://umontanamediaarts.com/MART120/wp-admin/admin-ajax.php?action=h5p_embed&id=1" width="958" height="343" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART120/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script></p>
 </div>
