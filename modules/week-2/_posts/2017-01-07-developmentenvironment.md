@@ -12,7 +12,7 @@ module: 1
   <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
  </div>
 
-<div id="VS" class="tabcontent" style="display:block">
+<div id="VS" class="tabcontent active" style="display:block">
 <p><b>Introduction to Visual Studio</b></p>
 
 <p>Visual Studio is an Integrated Development Environment(IDE) developed by Microsoft to develop GUI(Graphical User Interface), console, Web applications, web apps, mobile apps, cloud, and web services, etc. With the help of this IDE, you can create managed code as well as native code. It uses the various platforms of Microsoft software development software like Windows store, Microsoft Silverlight, and Windows API, etc. It is not a language-specific IDE as you can use this to write code in C#, C++, VB(Visual Basic), Python, JavaScript, and many more languages. It provides support for 36 different programming languages. It is available for Windows as well as for macOS.</p>

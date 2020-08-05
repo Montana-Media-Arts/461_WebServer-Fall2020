@@ -12,7 +12,7 @@ jotted: false
   <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
  </div>
 
-<div id="Server" class="tabcontent" style="display:block">
+<div id="Server" class="tabcontent active" style="display:block">
 <p>It is the program that runs on server dealing with the generation of content of web page.</p>
 <ol>
 <li>Querying the database</li>

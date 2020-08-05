@@ -10,7 +10,7 @@ module: 1
   <button class="tablinks" onclick="openTab(event, 'PHP')">PHP</button>
  </div>
 
-<div id="C-sharp" class="tabcontent" style="display:block">
+<div id="C-sharp" class="tabcontent active" style="display:block">
 <p><b>The .NET platform</b></p>
 
 <p>.NET is a developer platform made up of tools, programming languages, and libraries for building many different types of applications.</p>
