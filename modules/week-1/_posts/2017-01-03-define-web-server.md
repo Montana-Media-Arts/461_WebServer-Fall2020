@@ -62,6 +62,7 @@ jotted: false
   <li>Think for 2 minutes how the client and server interact with one another to display information.  What do you think is the most important thing we need to consider? Why?</li>
   <li>Discuss for 2 minutes with another person your thoughts.</li>
   <li>Share with the group your thoughts</li>
+  </ol>
 </div>
 
 <p><a href="https://www.geeksforgeeks.org/server-side-client-side-programming/" target="_new"><em>Reference</em></a></p>
