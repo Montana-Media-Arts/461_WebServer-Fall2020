@@ -6,7 +6,7 @@ module: 1
 # Course Introduction
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'Goals')">Goals</button>
  
 </div>
