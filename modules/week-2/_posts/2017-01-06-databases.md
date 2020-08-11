@@ -6,7 +6,7 @@ module: 1
 # Databases
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'SQLServer')">MS SQL Server</button>
+  <button class="tablinks active" onclick="openTab(event, 'SQLServer')">MS SQL Server</button>
   <button class="tablinks" onclick="openTab(event, 'MySql')">MySQL</button>
    <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
  </div>

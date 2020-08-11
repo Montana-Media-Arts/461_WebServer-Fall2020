@@ -6,7 +6,7 @@ module: 1
 # Development Environment
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'VS')">Visual Studio</button>
+  <button class="tablinks active" onclick="openTab(event, 'VS')">Visual Studio</button>
   <button class="tablinks" onclick="openTab(event, 'SSMS')">SQL Server Management Studio</button>
   <button class="tablinks" onclick="openTab(event, 'Workbench')">MySQL Workbench</button>
   <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>

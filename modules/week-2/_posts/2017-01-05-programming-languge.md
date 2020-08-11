@@ -6,7 +6,7 @@ module: 1
 # Server-side languages
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'C-sharp')">ASP.NET (C#)</button>
+  <button class="tablinks active" onclick="openTab(event, 'C-sharp')">ASP.NET (C#)</button>
   <button class="tablinks" onclick="openTab(event, 'PHP')">PHP</button>
  </div>
 
