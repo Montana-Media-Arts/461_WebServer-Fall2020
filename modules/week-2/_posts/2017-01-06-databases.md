@@ -49,7 +49,7 @@ module: 1
 <div id="ToDo" class="tabcontent">
     <p>Watch the following</p>
     <ol>
-        <li><a href="https://youtu.be/pF8n-8DPvjc" data-lity> What is SQL Server Video</a>
-        <li><a href="https://www.youtube.com/watch?v=DCaA1-EcTMk" data-lity>What is MySQL Video</a>  
+        <li><a href="https://youtu.be/pF8n-8DPvjc" data-lity> What is SQL Server Video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=DCaA1-EcTMk" data-lity>What is MySQL Video</a></li>  
     </ol>
 </div>
