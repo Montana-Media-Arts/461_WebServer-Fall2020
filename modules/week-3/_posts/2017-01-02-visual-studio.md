@@ -5,9 +5,5 @@ module: 3
 
 # Visual Studio Community
 
-## Download
-
-## Install
-
 ## Interface
 
