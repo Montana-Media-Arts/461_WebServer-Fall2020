@@ -16,7 +16,7 @@ module: 1
 
 <p>Like other RDBMS software, Microsoft SQL Server is built on top of SQL, a standardized programming language that database administrators (DBAs) and other IT professionals use to manage databases and query the data they contain. SQL Server is tied to Transact-SQL (T-SQL), an implementation of SQL from Microsoft that adds a set of proprietary programming extensions to the standard language.</p>
 
-<p>Inside SQL Server's architecture—How SQL Server works  </p>         
+<p><b>Inside SQL Server's architecture—How SQL Server works</b></p>         
 
 <p>Like other RDBMS technologies, SQL Server is primarily built around a row-based table structure that connects related data elements in different tables to one another, avoiding the need to redundantly store data in multiple places within a database. The relational model also provides referential integrity and other integrity constraints to maintain data accuracy. Those checks are part of a broader adherence to the principles of atomicity, consistency, isolation and durability, collectively known as the ACID properties, and are designed to guarantee that database transactions are processed reliably.</p>
 
@@ -24,7 +24,7 @@ module: 1
 
 <p>Sitting beneath the Database Engine is the SQL Server Operating System, or SQLOS. SQLOS handles lower-level functions, such as memory and I/O management, job scheduling and locking of data to avoid conflicting updates. A network interface layer sits above the Database Engine and uses Microsoft's Tabular Data Stream protocol to facilitate request and response interactions with database servers. And at the user level, SQL Server DBAs and developers write T-SQL statements to build and modify database structures, manipulate data, implement security protections and back up databases, among other tasks.</p>
 
-<p>SQL Server services, tools and editions</p>
+<p><b>SQL Server services, tools and editions</b></p>
 
 <p>Microsoft also bundles a variety of data management, business intelligence (BI) and analytics tools with SQL Server. In addition to the R Services and now Machine Learning Services technology that first appeared in SQL Server 2016, the data analysis offerings include SQL Server Analysis Services, an analytical engine that processes data for use in BI and data visualization applications, and SQL Server Reporting Services, which supports the creation and delivery of BI reports.</p>
 
