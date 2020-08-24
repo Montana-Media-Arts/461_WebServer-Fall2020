@@ -47,9 +47,12 @@ module: 1
 </div>
 
 <div id="ToDo" class="tabcontent">
-    <p>Watch the following</p>
+    <p>Watch the following videos and answer the following questions</p>
     <ol>
+        <li>Take 10-15 minutes and have one person examine MS SQL Server and the other MySQL. What is the same? What are the differences?  Who uses them?  Which database has the most market share?  Will Relational Databases ever go away?</li> 
         <li><a href="https://youtu.be/pF8n-8DPvjc" data-lity> What is SQL Server Video</a></li>
-        <li><a href="https://www.youtube.com/watch?v=DCaA1-EcTMk" data-lity>What is MySQL Video</a></li>  
+        <li><a href="https://www.youtube.com/watch?v=DCaA1-EcTMk" data-lity>What is MySQL Video</a></li>
+        <li>Extra credit question if you are bored: What is NoSql and how does it play into this?</li>
+        <li>Discuss your findings with the class.</li>
     </ol>
 </div>

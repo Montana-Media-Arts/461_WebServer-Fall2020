@@ -72,9 +72,11 @@ Properties: It will give additional information and context about the selected p
 </div>
 
 <div id="ToDo" class="tabcontent">
-    <p>Watch the following</p>
+    <p>Watch the following and answer the following questions</p>
     <ol>
         <li><a href="https://www.youtube.com/watch?v=5AOp8zFu4Vg" data-lity>Visual Studio Video</a></li>
         <li><a href="https://youtu.be/moCgS2kfxnU" data-lity>SQL Server Management Studio Video</a></li>
         <li><a href="https://www.youtube.com/watch?v=owSSIlx1yVg" data-lity>MySQL Workbench Video</a></li>
+        <li>Split up into groups and examine the different development environments.  What are the advantages of learning about them?  Do we really need them?  Think about how they would be used in the professional world.</li>
+        <li>Discuss your findings with the class</li>
     </ol></div>

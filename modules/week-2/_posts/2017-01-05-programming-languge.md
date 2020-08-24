@@ -119,9 +119,11 @@ A scripting language is a language that interprets scripts at runtime. Scripts a
 
 <div id="ToDo" class="tabcontent">
 
-<p>Watch the following videos</p>
+<p>Watch the following videos and answer the questions.</p>
 <ul>
+<li>Take 10-15 minutes to break out into groups.  Have one person examine ASP.NET (it's okay to lump MVC in there too) and the other PHP.  Find examples where each of these technologies are used.  Why do you think they were used in these situations?  Who has the most market share?  Why is this important?</li>  
 <li><a href="https://youtu.be/lE8NdaX97m0?list=PLdo4fOcmZ0oW8nviYduHq7bmKode-p8Wy" data-lity>ASP.NET Video</a></li>
 <li><a href="https://youtu.be/KL7_wZSTY6Y"  data-lity>PHP Video</a></li>
+<li>Discuss your findings with the class.
 </ul>
 </div>
