@@ -1,6 +1,6 @@
 ---
 title: Programming Languages
-module: 1
+module: 2
 ---
 
 # Server-side languages
