@@ -17,8 +17,23 @@ jotted: true
 The web doesn't have state because of the high volume of users would decimate the memory on our servers.
 </div>
 <div id="Webforms" class="tabcontent">
-Access QueryStrings in Webforms
+<div class="tabhtml" markdown="1">
+<p>Access QueryStrings in Webforms</p>
+  <p>What is the code to access querystrings on a webform</p>
+
+  ```csharp
+    Request.QueryString["NameOfVariable"].ToString();
+  ```
+</div>  
 </div>
 <div id="PHP" class="tabcontent">
-Access QueryStrings in PHP
+<div class="tabhtml" markdown="1">
+<p>Access QueryStrings in PHP</p>
+<p>What is the code to access querystrings on a PHP form</p>
+
+  ```php
+    $_GET["NameofVariable"]
+    $_SERVER['QUERY_STRING'] // what does that do?
+  ```
+  </div>
 </div>
