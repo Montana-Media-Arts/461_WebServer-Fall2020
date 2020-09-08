@@ -20,7 +20,6 @@ The web doesn't have state because of the high volume of users would decimate th
 </div>
 <div id="Querystrings" class="tabcontent">
 The first one is the querystring. We have seen this with our GET in PHP.  Whenever we send information from a form to the server in the address bar.
-<p>
 <p>How and why are they used?</p>
 <p>What are the security risks in using them?</p>
 <p>Can we view the contents</p>
