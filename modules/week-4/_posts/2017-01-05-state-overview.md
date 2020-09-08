@@ -23,7 +23,8 @@ The first one is the querystring. We have seen this with our GET in PHP.  Whenev
 <p>How and why are they used?</p>
 <p>What are the security risks in using them?</p>
 <p>Can we view the contents</p>
-<p>What can be stored in them?</p></div>
+<p>What can be stored in them?</p>
+</div>
 <div id="Cookies" class="tabcontent">
 What are cookies?  Cookies are small files that contain information that can be accessed on the client.
 <p>How and why are they used?</p>
