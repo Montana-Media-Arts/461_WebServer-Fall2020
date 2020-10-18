@@ -1,6 +1,6 @@
 ---
-title: Change PHP pages
-module: 9
+title: Stored Procedures with parameters
+module: 10
 jotted: true
 ---
 
@@ -26,23 +26,18 @@ if ($conn->connect_error) {
 }
 
 // prepare and bind
-$stmt = $conn->prepare("INSERT INTO MyGuests (firstname, lastname, email) VALUES (?, ?, ?)");
-$stmt->bind_param("sss", $firstname, $lastname, $email);
+$stmt = $conn->prepare("INSERT INTO names (firstname, lastname, username) VALUES (?, ?, ?)");
+$stmt->bind_param("sss", $firstname, $lastname, $username);
 
 // set parameters and execute
 $firstname = "John";
 $lastname = "Doe";
-$email = "john@example.com";
+$username = "john@example.com";
 $stmt->execute();
 
 $firstname = "Mary";
 $lastname = "Moe";
-$email = "mary@example.com";
-$stmt->execute();
-
-$firstname = "Julie";
-$lastname = "Dooley";
-$email = "julie@example.com";
+$username = "mary@example.com";
 $stmt->execute();
 
 echo "New records created successfully";
@@ -56,17 +51,31 @@ So, how will it work now?
 
 ```php
 //Replace the below connection parameters to fit your environment
-$host = '192.168.1.8'; 
-$db = 'hris';
-$user = 'tr';
-$pass = 'mypass';
-$dsn = "$dbms:host=$host;dbname=$db";
+$host = 'localhost'; 
+$db = 'names';
+$user = 'username';
+$pass = 'pwd';
+$dsn = "mysql:host=$host;dbname=$db";
 
 $cn=new PDO($dsn, $user, $pass);
 
-$q=$cn->exec('call avg_sal(@out)');
-$res=$cn->query('select @out')->fetchAll();
-print_r($res);
+$firstname = "Bob";
+$lastname = "Jones";
+$username = "bob.jones@test.com";
+$pwd = "test123";
+
+$sql = 'CALL spInsertNewPerson(:firstname, :lastname, :username, :pwd)';
+
+$stmt = $cn->prepare($sql);
+
+$stmt->bindParam(':firstname', $firstname, PDO::PARAM_STR);
+$stmt->bindParam(':lastname', $lastname, PDO::PARAM_STR);
+$stmt->bindParam(':username', $username, PDO::PARAM_STR);
+$stmt->bindParam(':pwd', $pwd, PDO::PARAM_STR);
+
+$stmt->execute();
+$stmt->closeCursor();
+
 ```
 
 
