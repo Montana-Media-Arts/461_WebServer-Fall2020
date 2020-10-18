@@ -1,10 +1,10 @@
 ---
-title: Stored Procedures and PHP
+title: Abstract the Code
 module: 10
 jotted: true
 ---
 
-# Abstract our code
+# Abstract the code
 
 Just like in other languages, we don't want to duplicate code if we don't have to.  So, we are going to separate out our code into different files and then include them.
 
