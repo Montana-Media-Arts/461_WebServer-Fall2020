@@ -278,3 +278,5 @@ This is some &lt;b&gt;bold&lt;/b&gt; text.
 The browser output of the code above will be:
 
 This is some <b>bold</b> text.
+
+<a href="https://www.w3schools.com/php/func_string_htmlspecialchars.asp" target="_new"><em>Source</em></a>
