@@ -34,7 +34,7 @@ The same-origin policy is supposed to allow scripts only when a script is loaded
 
 Application vulnerabilities can help attackers by enabling them to embed fragments and malicious code in page content.
 
-For example, a typical search engine echoes the user's query when displaying search results. What if the user tries to find the string "<script> alert (1) </script>"? Will the contents of the search results page lead to this script being executed, and will a dialog box with the message "1" appear? This depends on how well the web application developers verify user input and transform it into a safe format.
+For example, a typical search engine echoes the user's query when displaying search results. What if the user tries to find the string "&lt;script&gt; alert (1) &lt;/script&gt;"? Will the contents of the search results page lead to this script being executed, and will a dialog box with the message "1" appear? This depends on how well the web application developers verify user input and transform it into a safe format.
 
 The main difficulty lies in the fact that users run a wide variety of browser versions, from the latest pre-alphas to ones that are no longer supported. Every browser handles web pages in a slightly different way. In some cases, an XSS attack can be quite successful when inputs are not sufficiently filtered. So the first step in an XSS attack is to determine how to embed user data on a web page.
 
@@ -60,7 +60,7 @@ The code processes the value of the first URL parameter passed in the user's req
     
 ```html
 <div>
-    Search for &lt;script&gt;alert(1)&lt;/script&gt;
+    Search for <script>alert(1)</script>
 </div>
 ```
     
