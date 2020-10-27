@@ -60,28 +60,34 @@ Password:
 myPass
 
 Example
+
 uName = getRequestString("username");
 uPass = getRequestString("userpassword");
 
 sql = 'SELECT * FROM Users WHERE Name ="' + uName + '" AND Pass ="' + uPass + '"'
 
 Result
+
 SELECT * FROM Users WHERE Name ="John Doe" AND Pass ="myPass"
 
 A hacker might get access to user names and passwords in a database by simply inserting " OR ""=" into the user name or password text box:
 
 User Name:
+
 " or ""="
 
 Password:
+
 " or ""="
 
 The code at the server will create a valid SQL statement like this:
 
 Result
 
+```sql
 SELECT * FROM Users WHERE Name ="" or ""="" AND Pass ="" or ""=""
 The SQL above is valid and will return all rows from the "Users" table, since OR ""="" is always TRUE.
+```
 
 ### SQL Injection Based on Batched SQL Statements 
 
@@ -92,14 +98,20 @@ A batch of SQL statements is a group of two or more SQL statements, separated by
 The SQL statement below will return all rows from the "Users" table, then delete the "Suppliers" table.
 
 Example
+
+```sql
 SELECT * FROM Users; DROP TABLE Suppliers
+```
+
 Look at the following example:
 
 Example
 
+```csharp
 txtUserId = getRequestString("UserId");
 txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
 And the following input:
+```
 
 User id: 
 105; DROP TABLE Suppliers
@@ -108,7 +120,9 @@ The valid SQL statement would look like this:
 
 Result
 
+```sql
 SELECT * FROM Users WHERE UserId = 105; DROP TABLE Suppliers;
+```
 
 ### Use SQL Parameters for Protection
 
@@ -125,14 +139,17 @@ The following examples shows how to build parameterized queries in some common w
 
 SELECT STATEMENT IN ASP.NET:
 
+```csharp
 txtUserId = getRequestString("UserId");
 sql = "SELECT * FROM Customers WHERE CustomerId = @userId";
 command = new SqlCommand(sql);
 command.Parameters.AddWithValue("@userId",txtUserId);
 command.ExecuteReader();
+```
 
 INSERT INTO STATEMENT IN ASP.NET:
 
+```sql
 txtNam = getRequestString("CustomerName");
 txtAdd = getRequestString("Address");
 txtCit = getRequestString("City");
@@ -143,14 +160,17 @@ command.Parameters.AddWithValue("@customerName",txtNam);
 command.Parameters.AddWithValue("@address",txtAdd);
 command.Parameters.AddWithValue("@city",txtCit);
 command.ExecuteNonQuery();
+```
 
 INSERT INTO STATEMENT IN PHP:
 
+```php
 $stmt = $dbh->prepare("INSERT INTO Customers (CustomerName,Address,City)
 VALUES (:nam, :add, :cit)");
 $stmt->bindParam(':nam', $txtNam);
 $stmt->bindParam(':add', $txtAdd);
 $stmt->bindParam(':cit', $txtCit);
 $stmt->execute();
+```
 
 <a href="https://w3schools.com" target="_new"><em>Source</em></a>

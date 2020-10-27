@@ -55,12 +55,12 @@ protected void doGet(HttpServletRequest request, HttpServletResponse resp) {
 ```
     
 
-The code processes the value of the first URL parameter passed in the user's request. Then it displays the parameter on the resulting web page. The developer seemingly doesn't expect to see anything other than plain text without HTML tags in the firstName parameter. If the attacker sends the request "http://very.good.site/search?firstName= <script> alert ( 1) </script>", the final page will look as follows:
+The code processes the value of the first URL parameter passed in the user's request. Then it displays the parameter on the resulting web page. The developer seemingly doesn't expect to see anything other than plain text without HTML tags in the firstName parameter. If the attacker sends the request "http://very.good.site/search?firstName= &lt;script&gt; alert ( 1) &lt;/script&gt;", the final page will look as follows:
 
     
 ```html
 <div>
-    Search for <script>alert(1)</script>
+    Search for &lt;script&gt;alert(1)&lt;/script&gt;
 </div>
 ```
     
